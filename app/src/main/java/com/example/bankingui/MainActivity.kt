@@ -60,12 +60,13 @@ fun HomeScreen(){
     ) {  padding ->
         Column(modifier = Modifier
             .fillMaxSize()
-            .padding(padding)) {  }
-        WalletSection()
-//        CardsSection()
-        Spacer(modifier= Modifier.height(16.dp))
+            .padding(padding)) {
+            WalletSection()
+            CardsSection()
+            Spacer(modifier = Modifier.height(16.dp))
 //        FinanceSection()
 //        CurrenciesSection()
+        }
 
     }
 }
