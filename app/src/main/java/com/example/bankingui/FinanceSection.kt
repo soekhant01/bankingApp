@@ -63,7 +63,7 @@ fun FinanceSection(){
             color =MaterialTheme.colorScheme.onBackground,
             fontWeight = FontWeight.Bold,
             modifier = Modifier
-                .padding(16.dp)
+                .padding(start= 16.dp, bottom = 8.dp)
         )
         LazyRow {
             items(financeList.size){
